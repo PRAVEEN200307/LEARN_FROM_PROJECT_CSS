@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightseagreen;
+}
+.container{
+   max-width: 600px;
+   background-color: white;
+}
+.content p{
+   padding: 15px;
+}
+.content{
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.8s ease;
+}
+.content:target{
+    max-height:150px;
+}
+.title{
+    display:block;
+    background-color: rgb(94, 136, 176);
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid #b7e2ec;
+}
+a{
+   text-decoration: none;
+}
+.title:hover{
+   background-color: rgb(48, 149, 212);
+}
+
+
+
